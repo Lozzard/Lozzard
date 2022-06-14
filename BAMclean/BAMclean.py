@@ -9,7 +9,7 @@ parser.add_argument("--o",help="Output file",type=str)
 args = parser.parse_args()
 
 rRNA = {}
-with open("rRNA.txt","r") as r:
+with open("rRNA.bed","r") as r:
     for i in r:
         line = i.split("\t")
         if line[0] not in rRNA.keys():
