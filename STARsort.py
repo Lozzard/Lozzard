@@ -1,3 +1,7 @@
+#merge multi STAR final.out file
+#python STARsort.py --i inputfile --o outputfile
+#the inputfile will store the file name we want to merge
+
 import argparse
 
 parser = argparse.ArgumentParser(description='manual to this script')
